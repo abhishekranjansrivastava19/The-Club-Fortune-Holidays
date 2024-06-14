@@ -360,7 +360,8 @@ h1, h2, h3, h4, h5,
 }
 
 .slider-text{
-	position: relative;
+	position: absolute !important;
+	bottom-margin: 30% !important;
 	.subheading{
 		font-size: 30px;
 		color: $primary;
