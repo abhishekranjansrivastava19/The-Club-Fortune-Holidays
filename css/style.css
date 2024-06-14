@@ -8622,7 +8622,8 @@ h1, h2, h3, h4, h5,
     @media (max-width: 767.98px) {
       .slider-text h1 {
         font-size: 30px; 
-        margin-top: 3%;} }
+        /* margin-top: 10%; */
+      } }
   .slider-text p {
     font-size: 20px;
     line-height: 1.5;
