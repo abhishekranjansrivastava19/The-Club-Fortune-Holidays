@@ -8639,7 +8639,8 @@ h1, h2, h3, h4, h5,
       margin-right: 33px; }
       @media (max-width: 767.98px) {
         .slider-text p.caps {
-          margin-bottom: 25%; } }
+          margin-bottom: 25%; 
+        } }
   .slider-text .breadcrumbs {
     font-size: 16px;
     margin-bottom: 20px;
@@ -9185,14 +9186,15 @@ textarea.form-control {
     background: #000000;
     z-index: -1; }
   .ftco-about .img {
-    margin-top: -100px;
+    margin-top: -120px;
     -webkit-box-shadow: 0px 10px 23px -8px rgba(0, 0, 0, 0.11);
     -moz-box-shadow: 0px 10px 23px -8px rgba(0, 0, 0, 0.11);
     box-shadow: 0px 10px 23px -8px rgba(0, 0, 0, 0.11);
     border: 15px solid #fff; }
     @media (max-width: 767.98px) {
       .ftco-about .img {
-        height: 400px; } }
+        height: 350px; 
+        margin-top: -80px;} }
   .ftco-about .about-intro {
     width: 100%;
     position: relative;
@@ -10123,5 +10125,117 @@ textarea.form-control {
       bottom: 40%;
       color: white;
       font-size: 20px;
+  }
+  
+
+
+  .container_partners img {
+    width: 35%;
+    border-radius: 50%;
+  }
+  
+  .container_partners {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .items {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    animation: carouselAnim 50s infinite alternate linear;
+  }
+  
+  .entry {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    background: #fff;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .items {
+      animation: carouselAnim 35s infinite alternate linear;
+    }
+    
+    @keyframes carouselAnim {
+      from {
+        transform: translate(0, 0);
+      }
+      to {
+        transform: translate(calc(-100% + (2 * 300px)));
+      }
+    }
+  }
+  
+  .entry p {
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  @keyframes carouselAnim {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(calc(-100% + (5 * 300px)));
+    }
+  }
+  
+  .container .faders {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+  }
+  
+  .faders .right,
+  .faders .left {
+    /* background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ); */
+    background-color: white;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    z-index: 200;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .faders .right,
+  .faders .left {
+    /* background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ); */
+    width: 0%;
+  }
+  }
+  
+  .right {
+    right: 0;
+    /* background: linear-gradient(
+      to left,
+      rgba(245, 245, 245, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ); */
+    background-color: white;
   }
   
