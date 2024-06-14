@@ -8639,7 +8639,7 @@ h1, h2, h3, h4, h5,
       margin-right: 33px; }
       @media (max-width: 767.98px) {
         .slider-text p.caps {
-          margin-bottom: 10%; } }
+          margin-bottom: 25%; } }
   .slider-text .breadcrumbs {
     font-size: 16px;
     margin-bottom: 20px;
