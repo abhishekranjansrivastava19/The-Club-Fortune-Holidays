@@ -107,7 +107,7 @@ margin-bottom: 40px;
 
 .pricing-block .inner-box{
 position: relative;
-background-color: #ffffff;
+background-color: black;
 box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 padding: 0 0 30px;
 max-width: 370px;
@@ -129,7 +129,7 @@ bottom: 0;
 height: 75px;
 width: 100%;
 border-radius: 50% 50% 0 0;
-background-color: #ffffff;
+background-color: black;
 content: "";
 }
 
@@ -176,16 +176,16 @@ position: relative;
 display: block;
 font-size: 24px;
 line-height: 1.2em;
-color: #222222;
+color: white;
 font-weight: 600;
 }
 
 .pricing-block .price{
 display: block;
 font-size: 30px;
-color: #222222;
+/* color: white; */
 font-weight: 700;
-color: #0063B2FF;
+color: rgb(255, 255, 255);
 }
 
 
@@ -201,7 +201,7 @@ display: block;
 font-size: 14px;
 align-items: center;
 line-height: 30px;
-color: #848484;
+color: white;
 font-weight: 500;
 padding: 5px 0;
 padding-left: 30px;
@@ -230,7 +230,7 @@ content: "\f057";
 } */
 
 .pricing-block .features li a{
-color: #848484;
+color: #ffffff;
 }
 
 .pricing-block .features li:last-child{
@@ -266,10 +266,10 @@ color: #ffffff;
 }
 
 .pricing-block .inner-box:hover .btn-box a{
-color:#0063B2FF;
+color:rgb(255, 255, 255);
 background:none;
 border-radius:0px;
-border-color: #0063B2FF;
+border-color: white;
 }
 
 .pricing-block:nth-child(2) .icon-box i,
@@ -282,15 +282,7 @@ border-color: #0063B2FF;
 background-color: #0063B2FF;
 }
 
-.pricing-block:nth-child(2) .inner-box:hover .btn-box a{
-color:#0063B2FF;
-background:none;
-border-radius:0px;
-border-color:#0063B2FF;
-}
-
-.pricing-block:nth-child(2) .icon-box i,
-.pricing-block:nth-child(2) .price{
+.pricing-block:nth-child(2) .icon-box i{
 color: #0063B2FF;
 }
 
@@ -299,19 +291,18 @@ color: #0063B2FF;
 border-color: #0063B2FF;
 }
 
-.pricing-block:nth-child(3) .btn-box a,
-.pricing-block:nth-child(3) .icon-box{
+.pricing-block:nth-child(3) .btn-box a{
 background-color: #0063B2FF;
 }
 
-.pricing-block:nth-child(3) .icon-box i,
-.pricing-block:nth-child(3) .price{
+.pricing-block:nth-child(3) .icon-box i
+{
 color: #0063B2FF;
 }
 
 .pricing-block:nth-child(3) .inner-box:hover .btn-box a{
-color:#0063B2FF;
+color:#ffffff;
 background:none;
 border-radius:0px;
-border-color:#0063B2FF;
+border-color:#ffffff;
 }
