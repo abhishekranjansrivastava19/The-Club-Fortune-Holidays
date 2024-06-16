@@ -9704,6 +9704,8 @@ textarea.form-control {
     top: -7px;
     left: 20px;
     padding: 5px 15px;
+    height: 15%;
+    width: 85%;
     background: #0063B2FF; }
     .blog-entry .topp:after, .blog-entry .topp:before {
       position: absolute;
