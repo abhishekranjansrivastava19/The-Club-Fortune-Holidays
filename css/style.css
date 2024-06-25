@@ -10174,7 +10174,7 @@ textarea.form-control {
     display: flex;
     align-items: center;
     width: fit-content;
-    animation: carouselAnim 20s infinite alternate linear;
+    animation: carouselAnim 15s infinite alternate linear;
   }
   
   .entry {
@@ -10260,11 +10260,9 @@ textarea.form-control {
   
   .right {
     right: 0;
-    /* background: linear-gradient(
-      to left,
-      rgba(245, 245, 245, 1) 0%,
-      rgba(255, 255, 255, 0) 100%
-    ); */
     background-color: white;
   }
   
+  .categories li a:hover {
+    color: #0063B2FF;
+  }
