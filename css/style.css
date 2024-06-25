@@ -9773,11 +9773,40 @@ textarea.form-control {
       height: 40px;
       line-height: 40px;
       border-radius: 50%;
-      border: 1px solid #e6e6e6; }
-    .block-27 ul li.active a, .block-27 ul li.active span, .block-27 ul li:hover a, .block-27 ul li:hover span {
-      background: #33313b;
-      color: #fff;
-      border: 1px solid transparent; }
+      border: 1px solid #e6e6e6; 
+    }
+
+.destinations_block ul li.active a, .destinations_block ul li.active span, .destinations_block ul li:hover a, .destinations_block ul li:hover span {
+  color: #fff;
+  background: #0063B2FF;
+  cursor: pointer;
+}
+
+  .destinations_block ul {
+    padding: 0;
+    margin: 0; }
+      .destinations_block ul li {
+        display: inline-block;
+        margin-bottom: 4px;
+        font-weight: 400; 
+        font-size: large;
+      }
+          .destinations_block ul li a, .destinations_block ul li span {
+            color: #000000;
+            text-align: center;
+            display: inline-block;
+            width: 80px;
+            height: 40px;
+            line-height: 40px;
+            /* border-radius: 50%; */
+            border: 1px solid #e6e6e6; 
+            box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+          }
+          .destinations_block ul li.active a, .destinations_block ul li.active span, .destinations_block ul li:hover a, .destinations_block ul li:hover span {
+            background: #0063B2FF;
+            color: #fff;
+            border: 1px solid transparent; 
+          }      
 
 .contact-section .contact-info p a {
   color: #1a1a1a; }
@@ -10132,8 +10161,7 @@ textarea.form-control {
 
 
   .container_partners img {
-    width: 35%;
-    border-radius: 50%;
+    width: 100%;
   }
   
   .container_partners {
@@ -10146,7 +10174,7 @@ textarea.form-control {
     display: flex;
     align-items: center;
     width: fit-content;
-    animation: carouselAnim 50s infinite alternate linear;
+    animation: carouselAnim 20s infinite alternate linear;
   }
   
   .entry {
@@ -10155,11 +10183,10 @@ textarea.form-control {
     flex-direction: column;
     position: relative;
     width: 300px;
-    background: #fff;
+    /* background: #fff; */
     margin: 1em;
     padding: 0.5em;
-    border-radius: 10px;
-    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5); */
   }
   
   @media only screen and (max-width: 768px) {
