@@ -10174,7 +10174,7 @@ textarea.form-control {
     display: flex;
     align-items: center;
     width: fit-content;
-    animation: carouselAnim 15s infinite alternate linear;
+    animation: carouselAnim 14s infinite alternate linear;
   }
   
   .entry {
